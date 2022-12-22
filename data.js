@@ -130,7 +130,7 @@ var APP_DATA = {
   "name": "LIVING 35 Apto M",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
