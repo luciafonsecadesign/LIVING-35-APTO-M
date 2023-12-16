@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-entrada-y-cocina",
-      "name": "Entrada y Cocina",
+      "id": "0-entrada",
+      "name": "Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -24,66 +24,28 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.12351560860267874,
-        "pitch": 0.16725612982993887,
-        "fov": 1.4134061960355204
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.8037670841369984,
-          "pitch": 0.3102348539533395,
+          "yaw": 1.2912303410484718,
+          "pitch": 0.2701586877778617,
           "rotation": 0.7853981633974483,
-          "target": "2-cama"
+          "target": "1-cama"
         },
         {
-          "yaw": 0.02917094492979011,
-          "pitch": 0.198229448844355,
+          "yaw": 0.5060208954996241,
+          "pitch": 0.09903152520503866,
           "rotation": 5.497787143782138,
-          "target": "1-bao"
+          "target": "2-bao"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-bao",
-      "name": "Baño",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -0.18632419184306315,
-        "pitch": 0.352891742595709,
-        "fov": 1.4134061960355204
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.703562547314391,
-          "pitch": 0.06173273977495519,
-          "rotation": 5.497787143782138,
-          "target": "0-entrada-y-cocina"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-cama",
+      "id": "1-cama",
       "name": "Cama",
       "levels": [
         {
@@ -106,28 +68,66 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.35577865521423924,
-        "pitch": 0.31061852682702984,
-        "fov": 1.4134061960355204
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.6305065560288874,
-          "pitch": 0.2222881108550201,
-          "rotation": 0.7853981633974483,
-          "target": "1-bao"
+          "yaw": -2.9089986815190993,
+          "pitch": 0.13502274824508298,
+          "rotation": 5.497787143782138,
+          "target": "0-entrada"
         },
         {
-          "yaw": -2.968697013275696,
-          "pitch": 0.24559853685590127,
-          "rotation": 0,
-          "target": "0-entrada-y-cocina"
+          "yaw": -1.470231497407486,
+          "pitch": 0.10192463814767727,
+          "rotation": 0.7853981633974483,
+          "target": "2-bao"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-bao",
+      "name": "Baño",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.6726986530703947,
+          "pitch": 0.058426177533345225,
+          "rotation": 5.497787143782138,
+          "target": "0-entrada"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "LIVING 35 Apto M",
+  "name": "LIVIONG 35 - M",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
